@@ -35,6 +35,10 @@ export class Tours extends Component {
       );
     }
 
+    if (tours.length === 0) {
+      return 'No Data found';
+    }
+
     return (
       <React.Fragment>
         <div className="u-display--flex u-align-items--center u-align-self--flex-end u-margin--bottom-gutter">
