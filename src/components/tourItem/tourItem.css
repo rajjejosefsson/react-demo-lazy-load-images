@@ -1,0 +1,76 @@
+.c-tour-item {
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .c-tour-item {
+    flex-direction: column;
+  }
+}
+
+.c-tour-item--images-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-tour-item--image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.c-tour-item--image-tour {
+  height: 170px;
+}
+
+.c-tour-item--image-map {
+  height: 112px;
+}
+
+.c-tour-item--info-dl {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+
+.c-tour-item--info-dl dt {
+  flex: 0 0 30%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c-tour-item--info-dl dd {
+  flex: 0 0 70%;
+  margin-left: auto;
+  text-align: left;
+  overflow: hidden;
+}
+
+.c-tour-item--info-dl dt {
+  text-transform: uppercase;
+  color: #818d99;
+}
+
+.c-tour-item--info-dl dd,
+.c-tour-item--info-dl dt {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c-tour-item--days {
+  border-top: 1px solid #c7d0d9;
+  border-bottom: 1px solid #c7d0d9;
+  padding: 10px 0;
+}
+
+.c-tour-item--savings dd {
+  font-size: 18px;
+}
+
+.c-tour-item--days dd,
+.c-tour-item--days dt {
+  font-size: 18px;
+  font-weight: bold;
+}

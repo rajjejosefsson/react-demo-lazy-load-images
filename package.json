@@ -1,0 +1,40 @@
+{
+  "name": "tour-part-2",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "0.18.0",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-lazyload": "2.3.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "now-start": "serve --single ./build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged",
+    "prettier": "prettier 'src/**/*.js' --write"
+  },
+  "devDependencies": {
+    "serve": "9.6.0",
+    "husky": "1.0.0-rc.13",
+    "lint-staged": "7.2.2",
+    "prettier": "1.14.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

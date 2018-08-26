@@ -1,0 +1,7 @@
+.u-padding--gutter {
+  padding: var(--u-gutter);
+}
+
+.u-padding--left-gutter-xs {
+  padding-left: var(--u-gutter--xs);
+}

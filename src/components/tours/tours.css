@@ -1,0 +1,9 @@
+.c-tours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c-tours--li {
+  margin-bottom: 28px;
+}

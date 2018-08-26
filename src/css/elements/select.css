@@ -1,0 +1,16 @@
+.e-select {
+  margin-left: 14px;
+  line-height: 41px;
+  padding: 0 30px 0 15px;
+  height: 43px;
+  border-radius: 0;
+  font-size: 14px;
+  border: 1px solid #c7d0d9;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  background: #fff no-repeat 92%;
+  min-width: 150px;
+  outline: none;
+  background-image: url(../../assets/arrowDownIcon.svg);
+}

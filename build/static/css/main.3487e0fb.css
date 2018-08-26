@@ -1,0 +1,326 @@
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Source Sans Pro, Arial, sans-serif;
+}
+body {
+  background: #ebeef1;
+}
+.u-display--flex {
+  display: -ms-flexbox;
+  display: flex;
+}
+.u-flex--1 {
+  -ms-flex: 1 1;
+  flex: 1 1;
+}
+.u-flex--2 {
+  -ms-flex: 2 1;
+  flex: 2 1;
+}
+.u-flex--3 {
+  -ms-flex: 3 1;
+  flex: 3 1;
+}
+.u-justify-content--center {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.u-justify-content--space-between {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.u-padding--gutter {
+  padding: var(--u-gutter);
+}
+.u-padding--left-gutter-xs {
+  padding-left: var(--u-gutter--xs);
+}
+.u-margin--bottom-gutter {
+  margin-bottom: var(--u-gutter);
+}
+.u-margin--bottom-sm {
+  margin-bottom: var(--u-gutter--sm);
+}
+.u-font-weight--bold {
+  font-weight: 700;
+}
+.u-align-self--flex-end {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+.u-align-items--center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+.u-color--black {
+  color: var(--u-color--black);
+}
+.u-color--gray {
+  color: var(--u-color--gray);
+}
+.u-font-size--6 {
+  font-size: var(--u-font-size--6);
+}
+.u-font-size--8 {
+  font-size: var(--u-font-size--8);
+}
+.u-font-size--10 {
+  font-size: var(--u-font-size--10);
+}
+.u-font-size--12 {
+  font-size: var(--u-font-size--12);
+}
+.u-font-size--14 {
+  font-size: var(--u-font-size--14);
+}
+.u-font-size--18 {
+  font-size: var(--u-font-size--18);
+}
+.u-font-size--24 {
+  font-size: var(--u-font-size--24);
+}
+.u-text-align--right {
+  text-align: right;
+}
+.u-height--100vh {
+  height: 100vh;
+}
+h4 {
+  font-size: 18px;
+  color: var(--u-color--black);
+}
+.e-select {
+  margin-left: 14px;
+  line-height: 41px;
+  padding: 0 30px 0 15px;
+  height: 43px;
+  border-radius: 0;
+  font-size: 14px;
+  border: 1px solid #c7d0d9;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  background: #fff no-repeat 92%;
+  min-width: 150px;
+  outline: none;
+  background-image: url(/static/media/arrowDownIcon.e98f4df9.svg);
+}
+:root {
+  --u-color--black: #2c3e50;
+  --u-color--gray: #818d99;
+}
+:root {
+  --u-gutter: 16px;
+  --u-gutter--sm: 8px;
+  --u-gutter--xs: 4px;
+}
+:root {
+  --u-font-size--6: 6px;
+  --u-font-size--8: 8px;
+  --u-font-size--10: 10px;
+  --u-font-size--12: 12px;
+  --u-font-size--14: 14px;
+  --u-font-size--18: 18px;
+  --u-font-size--24: 24px;
+}
+.c-tour-item {
+  background: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .c-tour-item {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+.c-tour-item--images-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.c-tour-item--image {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.c-tour-item--image-tour {
+  height: 170px;
+}
+.c-tour-item--image-map {
+  height: 112px;
+}
+.c-tour-item--info-dl {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+.c-tour-item--info-dl dt {
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.c-tour-item--info-dl dd {
+  -ms-flex: 0 0 70%;
+  flex: 0 0 70%;
+  margin-left: auto;
+  text-align: left;
+  overflow: hidden;
+}
+.c-tour-item--info-dl dt {
+  text-transform: uppercase;
+  color: #818d99;
+}
+.c-tour-item--info-dl dd,
+.c-tour-item--info-dl dt {
+  font-size: 12px;
+  line-height: 18px;
+}
+.c-tour-item--days {
+  border-top: 1px solid #c7d0d9;
+  border-bottom: 1px solid #c7d0d9;
+  padding: 10px 0;
+}
+.c-tour-item--savings dd {
+  font-size: 18px;
+}
+.c-tour-item--days dd,
+.c-tour-item--days dt {
+  font-size: 18px;
+  font-weight: 700;
+}
+.placeholder {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: #f6f7f9;
+  background-size: 900px 100%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f6f7f9),
+    color-stop(20%, #e9ebee),
+    color-stop(40%, #f6f7f9),
+    to(#f6f7f9)
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    #f6f7f9,
+    #e9ebee 20%,
+    #f6f7f9 40%,
+    #f6f7f9
+  );
+  background-image: -o-linear-gradient(
+    left,
+    #f6f7f9 0,
+    #e9ebee 20%,
+    #f6f7f9 40%,
+    #f6f7f9 100%
+  );
+  background-image: linear-gradient(
+    90deg,
+    #f6f7f9 0,
+    #e9ebee 20%,
+    #f6f7f9 40%,
+    #f6f7f9
+  );
+  background-repeat: no-repeat;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: placeHolderShimmer;
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  to {
+    background-position: 468px 0;
+  }
+}
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  to {
+    background-position: 468px 0;
+  }
+}
+.c-tours {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.c-tours--li {
+  margin-bottom: 28px;
+}
+.spinner {
+  -ms-flex-item-align: center;
+  align-self: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.spinner:before {
+  content: '';
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(54, 54, 54, 0.6);
+  border-radius: 50%;
+  border-top-color: var(--u-color--pink);
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+}
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+.c-tour-page {
+  padding: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-width: 1164px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+/*# sourceMappingURL=main.3487e0fb.css.map*/

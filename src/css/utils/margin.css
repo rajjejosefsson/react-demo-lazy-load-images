@@ -1,0 +1,7 @@
+.u-margin--bottom-gutter {
+  margin-bottom: var(--u-gutter);
+}
+
+.u-margin--bottom-sm {
+  margin-bottom: var(--u-gutter--sm);
+}
